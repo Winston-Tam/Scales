@@ -14,39 +14,31 @@ void draw() {
       a = a + 6;
           if (a >=255)
     a = 255;
-    System.out.println("A IS " + a);
     }
     else if ((int)(Math.random()*7) == 5) {
       a = a - 6;
           if (a <=0)
     a = 0;
-    System.out.println("A IS " + a);
-    
     }
     else if ((int)(Math.random()*7) == 4) {
       b = b + 6;
           if (b >=255)
     b = 255;
-    System.out.println("B IS " + b);
-    
     }
     else if ((int)(Math.random()*7) == 3) {
       b = b - 6;
           if (b <=0)
     b = 0;
-    System.out.println(" B IS " + b);
     }
     else if ((int)(Math.random()*7) == 2) {
       c = c + 6;
           if (c >=255)
     c = 255;    
-    System.out.println("C IS " + c);
     }
     else if ((int)(Math.random()*7) == 1) {
       c = c - 6;
       if (c <=0)
     c = 0;
-    System.out.println("C IS " + c);
     }
       for (int x = 0; x<=800; x +=50){ 
    
