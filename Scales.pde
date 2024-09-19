@@ -9,15 +9,11 @@ int c = 255;
 void draw() {
   
   for (int y = 0; y<=800; y +=25) {
-
       for (int x = 0; x<=800; x +=50){ 
-   
   fill(a+random(-28,28),b+random(-28,28),c+random(-28,28));
   scales(x,y);
-    
     }  
   System.out.println("");
-    
   }
 }
 
