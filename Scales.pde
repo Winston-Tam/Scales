@@ -7,7 +7,6 @@ int b = 255;
 int c = 255;
 
 void draw() {
-        background(0,0,0);
   
   for (int y = 0; y<=800; y +=25) {
     if ((int)(Math.random()*7) == 6) {
