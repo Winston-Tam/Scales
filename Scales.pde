@@ -45,7 +45,7 @@ void draw() {
   scales(x,y);
     
     }  
-  System.out.println();
+  System.out.println("");
     
   }
 }
