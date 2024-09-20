@@ -1,13 +1,15 @@
 void setup() {
  size(800,800);
-int a = 255;
-int b = 255;
-int c = 255;
 
 }
 
 
 void draw() {
+int a = 255;
+int b = 255;
+int c = 255;
+
+
   for (int y = 0; y<=800; y +=25) {
     if ((int)(Math.random()*7) == 6) {
       a = a + 3;
