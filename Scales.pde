@@ -1,10 +1,11 @@
 void setup() {
  size(800,800);
-}
-
 int a = 255;
 int b = 255;
 int c = 255;
+
+}
+
 
 void draw() {
   for (int y = 0; y<=800; y +=25) {
